@@ -6,7 +6,7 @@ theme: "enchanted-lowkey"
 title: "Nick Fisher's tech blog"
 enableRobotsTXT: false
 summaryLength: 15
-paginate: 5
+paginate: 12
 
 services:
   googleAnalytics:
