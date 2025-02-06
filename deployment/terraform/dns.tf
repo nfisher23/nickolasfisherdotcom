@@ -77,6 +77,13 @@ resource "digitalocean_record" "txt_zoho_verification" {
   value  = "zoho-verification=zb94184910.zmverify.zoho.com"
 }
 
+resource "digitalocean_record" "google_search_console_verification" {
+  domain = digitalocean_domain.nickolasfisherdotcom.name
+  type   = "TXT"
+  name   = "@"
+  value  = "google-site-verification=Q1G_E0hAiBaRk5aYNn3dDtcpUkX0U3oTl1vVE6_gQeE"
+}
+
 resource "digitalocean_record" "txt_spf" {
   domain = digitalocean_domain.nickolasfisherdotcom.name
   type   = "TXT"
