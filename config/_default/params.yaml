@@ -5,7 +5,7 @@ isSinglePage: false
 description: "Nick Fisher's tech blog"
 
 # Header Configuration
-avatar: "img/profile-picture.jpg"
+avatar: "img/nick-headshot.jpg"
 
 # Favicon
 favicon: "img/nficon.png"
